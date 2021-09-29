@@ -2,13 +2,13 @@
 
 <h1>IPO</h1>
 
-<p>Input prompt </p>
+<p>Enter a number </p>
 
 <input @bind="InputString "/>
 
-<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+<button class="btn btn-primary" @onclick="DoProcessing">Go!</button>
 
-<p>Output: @OutputString </p>
+<p>Result: @OutputString </p>
 
 @code
 
@@ -24,7 +24,7 @@
 
         double num = double.Parse(InputString);
 
-        num = num * 2; 
+        num = num * 100;
 
         OutputString = num.ToString();
 
