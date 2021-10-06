@@ -6,9 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorApp.Client
 {
-    public class TodoItem
+    public class TodoItem // holds a class that represents a todo item
     {
-        public string Title { get; set; }
+        public string Title { get; set; } 
         public bool IsDone { get; set; }
     }
 }
