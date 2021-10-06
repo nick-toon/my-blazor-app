@@ -1,7 +1,7 @@
 # Welcome to my Blazor App!
-# What is Blazor?
+## What is Blazor?
 Blazor is a free and open-source web framework developed my Microsoft for developers to create web apps using C# and HTML.
-# Link to website
+## Link to website
 [https://gentle-water-0bdacfa0f.azurestaticapps.net](https://gentle-water-0bdacfa0f.azurestaticapps.net/)
 ![screenshot](webSC.png)
 ## Tutorials followed
